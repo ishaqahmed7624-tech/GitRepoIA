@@ -21,6 +21,7 @@ public class Rahulshetty1 {
 		dropdown.selectByValue("USD");
 		System.out.println(dropdown.getFirstSelectedOption().getText());
 		System.out.println("list of elements");
+		System.out.println("this is added in GitStuffIA");
 		List <WebElement> elems =dropdown.getOptions();
 		//List<WebElement> elems=driver.findElements(By.xpath("//select [@id='ctl00_mainContent_DropDownListCurrency']"));
 	for(WebElement s:elems)
