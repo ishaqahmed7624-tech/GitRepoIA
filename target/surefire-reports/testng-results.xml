@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-07T13:59:41 IST" name="Surefire suite" finished-at="2026-09-07T14:00:16 IST" duration-ms="35105">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="NegativeTest.invalidLoginShouldDisplayErrorMessage(java.lang.String,java.lang.String)[pri:0, instance:rsWork.mavenRsFramewrk.tests.NegativeTest@2aece37d]" name="invalidLoginShouldDisplayErrorMessage" class="rsWork.mavenRsFramewrk.tests.NegativeTest"/>
+        <method signature="NegativeTest.invalidProductShouldNotBeVisibleInCart()[pri:0, instance:rsWork.mavenRsFramewrk.tests.NegativeTest@2aece37d]" name="invalidProductShouldNotBeVisibleInCart" class="rsWork.mavenRsFramewrk.tests.NegativeTest"/>
+        <method signature="NegativeTest.wrongCredentialsShouldNotAllowOrderPlacement()[pri:0, instance:rsWork.mavenRsFramewrk.tests.NegativeTest@2aece37d]" name="wrongCredentialsShouldNotAllowOrderPlacement" class="rsWork.mavenRsFramewrk.tests.NegativeTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Negative">
+        <method signature="NegativeTest.invalidLoginShouldDisplayErrorMessage(java.lang.String,java.lang.String)[pri:0, instance:rsWork.mavenRsFramewrk.tests.NegativeTest@2aece37d]" name="invalidLoginShouldDisplayErrorMessage" class="rsWork.mavenRsFramewrk.tests.NegativeTest"/>
+        <method signature="NegativeTest.invalidProductShouldNotBeVisibleInCart()[pri:0, instance:rsWork.mavenRsFramewrk.tests.NegativeTest@2aece37d]" name="invalidProductShouldNotBeVisibleInCart" class="rsWork.mavenRsFramewrk.tests.NegativeTest"/>
+        <method signature="NegativeTest.wrongCredentialsShouldNotAllowOrderPlacement()[pri:0, instance:rsWork.mavenRsFramewrk.tests.NegativeTest@2aece37d]" name="wrongCredentialsShouldNotAllowOrderPlacement" class="rsWork.mavenRsFramewrk.tests.NegativeTest"/>
+      </group> <!-- Negative -->
+    </groups>
+    <test started-at="2026-09-07T13:59:41 IST" name="Surefire test" finished-at="2026-09-07T14:00:16 IST" duration-ms="35105">
+      <class name="rsWork.mavenRsFramewrk.tests.NegativeTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rsWork.mavenRsFramewrk.tests.NegativeTest@2aece37d]" started-at="2026-09-07T13:59:41 IST" name="launchApplication" finished-at="2026-09-07T13:59:47 IST" duration-ms="6683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="invalidLoginShouldDisplayErrorMessage(java.lang.String,java.lang.String)[pri:0, instance:rsWork.mavenRsFramewrk.tests.NegativeTest@2aece37d]" started-at="2026-09-07T13:59:47 IST" name="invalidLoginShouldDisplayErrorMessage" data-provider="invalidLoginData" finished-at="2026-09-07T13:59:49 IST" duration-ms="1157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid.user@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginShouldDisplayErrorMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rsWork.mavenRsFramewrk.tests.NegativeTest@2aece37d]" started-at="2026-09-07T13:59:49 IST" name="tearDown" finished-at="2026-09-07T13:59:49 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rsWork.mavenRsFramewrk.tests.NegativeTest@2aece37d]" started-at="2026-09-07T13:59:49 IST" name="launchApplication" finished-at="2026-09-07T13:59:54 IST" duration-ms="5017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="invalidLoginShouldDisplayErrorMessage(java.lang.String,java.lang.String)[pri:0, instance:rsWork.mavenRsFramewrk.tests.NegativeTest@2aece37d]" started-at="2026-09-07T13:59:54 IST" name="invalidLoginShouldDisplayErrorMessage" data-provider="invalidLoginData" finished-at="2026-09-07T13:59:55 IST" duration-ms="1173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jaunelia@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WrongPassword@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginShouldDisplayErrorMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rsWork.mavenRsFramewrk.tests.NegativeTest@2aece37d]" started-at="2026-09-07T13:59:55 IST" name="tearDown" finished-at="2026-09-07T13:59:55 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rsWork.mavenRsFramewrk.tests.NegativeTest@2aece37d]" started-at="2026-09-07T13:59:55 IST" name="launchApplication" finished-at="2026-09-07T14:00:00 IST" duration-ms="4663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="invalidLoginShouldDisplayErrorMessage(java.lang.String,java.lang.String)[pri:0, instance:rsWork.mavenRsFramewrk.tests.NegativeTest@2aece37d]" started-at="2026-09-07T14:00:00 IST" name="invalidLoginShouldDisplayErrorMessage" data-provider="invalidLoginData" finished-at="2026-09-07T14:00:01 IST" duration-ms="1253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ishaqahmed1548@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahmed@1223]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginShouldDisplayErrorMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rsWork.mavenRsFramewrk.tests.NegativeTest@2aece37d]" started-at="2026-09-07T14:00:01 IST" name="tearDown" finished-at="2026-09-07T14:00:01 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rsWork.mavenRsFramewrk.tests.NegativeTest@2aece37d]" started-at="2026-09-07T14:00:01 IST" name="launchApplication" finished-at="2026-09-07T14:00:06 IST" duration-ms="4551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="invalidProductShouldNotBeVisibleInCart()[pri:0, instance:rsWork.mavenRsFramewrk.tests.NegativeTest@2aece37d]" started-at="2026-09-07T14:00:06 IST" name="invalidProductShouldNotBeVisibleInCart" finished-at="2026-09-07T14:00:10 IST" duration-ms="3552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidProductShouldNotBeVisibleInCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rsWork.mavenRsFramewrk.tests.NegativeTest@2aece37d]" started-at="2026-09-07T14:00:10 IST" name="tearDown" finished-at="2026-09-07T14:00:10 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rsWork.mavenRsFramewrk.tests.NegativeTest@2aece37d]" started-at="2026-09-07T14:00:10 IST" name="launchApplication" finished-at="2026-09-07T14:00:14 IST" duration-ms="4552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="wrongCredentialsShouldNotAllowOrderPlacement()[pri:0, instance:rsWork.mavenRsFramewrk.tests.NegativeTest@2aece37d]" started-at="2026-09-07T14:00:14 IST" name="wrongCredentialsShouldNotAllowOrderPlacement" finished-at="2026-09-07T14:00:16 IST" duration-ms="1157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongCredentialsShouldNotAllowOrderPlacement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rsWork.mavenRsFramewrk.tests.NegativeTest@2aece37d]" started-at="2026-09-07T14:00:16 IST" name="tearDown" finished-at="2026-09-07T14:00:16 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- rsWork.mavenRsFramewrk.tests.NegativeTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
