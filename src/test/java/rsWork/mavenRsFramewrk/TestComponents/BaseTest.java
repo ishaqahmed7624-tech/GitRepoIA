@@ -38,9 +38,9 @@ public class BaseTest {
 		
 		if(browserName.equalsIgnoreCase("chrome"))
 		{
-			ChromeOptions options=new ChromeOptions();
-			options.addArguments("--headless=new");
-			driver=new ChromeDriver(options);	
+			//ChromeOptions options=new ChromeOptions();
+			//options.addArguments("--headless=new");
+			driver=new ChromeDriver();	
 		}
 		else if(browserName.equalsIgnoreCase("Edge"))
 		{

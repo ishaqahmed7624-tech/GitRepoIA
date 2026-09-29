@@ -22,7 +22,7 @@ public class ErrorValidation extends BaseTest {
 	@Test(groups= {"ErrorHandling"})
 	public void submitOrder() {
 		String productName="ZARA COAT 3";
-		landingpage.loginAct("ishaqahmed1548@gmail.com", "Ahmed@1223");
+		landingpage.loginAct("ishaqahmed1548@gmail.com", "Ahme22d@1223");
 		Assert.assertEquals("Incorrect email  password.", landingpage.getErrorMessage());
 	}
 	

@@ -4,18 +4,6 @@
   <listeners>
     <listener class-name="rsWork.mavenRsFramewrk.TestComponents.Listeners"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="ErrorValidationIA(failed)">
-    <classes>
-      <class name="rsWork.mavenRsFramewrk.tests.ErrorValidation">
-        <methods>
-          <include name="productErrorValidations"/>
-          <include name="launchApplication"/>
-          <include name="submitOrder"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- rsWork.mavenRsFramewrk.tests.ErrorValidation -->
-    </classes>
-  </test> <!-- ErrorValidationIA(failed) -->
   <test thread-count="5" parallel="tests" name="SubmitOrderIA(failed)">
     <classes>
       <class name="rsWork.mavenRsFramewrk.tests.LoginTest">
@@ -28,4 +16,16 @@
       </class> <!-- rsWork.mavenRsFramewrk.tests.LoginTest -->
     </classes>
   </test> <!-- SubmitOrderIA(failed) -->
+  <test thread-count="5" parallel="tests" name="ErrorValidationIA(failed)">
+    <classes>
+      <class name="rsWork.mavenRsFramewrk.tests.ErrorValidation">
+        <methods>
+          <include name="productErrorValidations"/>
+          <include name="launchApplication"/>
+          <include name="submitOrder"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- rsWork.mavenRsFramewrk.tests.ErrorValidation -->
+    </classes>
+  </test> <!-- ErrorValidationIA(failed) -->
 </suite> <!-- Failed suite [Suite] -->
