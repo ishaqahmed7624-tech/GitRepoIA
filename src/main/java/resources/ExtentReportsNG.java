@@ -15,7 +15,7 @@ public class ExtentReportsNG {
 	
 	ExtentReports extent=new ExtentReports();
 	extent.attachReporter(reporter);
-	extent.setSystemInfo("Tester", "Ishaq");
+	extent.setSystemInfo("Tester", "Ishaq Saba");
 	return extent;
 	}
 }
