@@ -5,17 +5,12 @@
     <listener class-name="rsWork.mavenRsFramewrk.TestComponents.Listeners"/>
   </listeners>
   <test thread-count="5" parallel="tests" name="ErrorValidationIA(failed)">
-    <groups>
-      <run>
-        <include name="ErrorHandling"/>
-      </run>
-    </groups>
     <classes>
       <class name="rsWork.mavenRsFramewrk.tests.ErrorValidation">
         <methods>
           <include name="launchApplication"/>
-          <include name="tearDown"/>
           <include name="submitOrder"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- rsWork.mavenRsFramewrk.tests.ErrorValidation -->
     </classes>
