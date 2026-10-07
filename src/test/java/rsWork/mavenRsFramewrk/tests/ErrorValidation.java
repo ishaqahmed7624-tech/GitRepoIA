@@ -23,10 +23,10 @@ public class ErrorValidation extends BaseTest {
 	public void submitOrder() {
 		String productName="ZARA COAT 3";
 		landingpage.loginAct("ishaqahmed1548@gmail.com", "Ahme22d@1223");
-		Assert.assertEquals("Incorrect email  password.", landingpage.getErrorMessage());
+		Assert.assertEquals("Incorrect email  pass2word.", landingpage.getErrorMessage());
 	}
 	
-	@Test
+	@Test(groups= {"ErrorHandling"})
 	public void productErrorValidations() throws IOException
 	{
 			String productName="ZARA COAT 3";

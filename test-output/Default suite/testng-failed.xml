@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="rsWork.mavenRsFramewrk.tests.LoginTest">
+      <class name="rsWork.mavenRsFramewrk.tests.ErrorValidation">
         <methods>
-          <include name="OrderHistoryTest"/>
-          <include name="submitOrder" invocation-numbers="0 1"/>
+          <include name="productErrorValidations"/>
           <include name="launchApplication"/>
           <include name="tearDown"/>
+          <include name="submitOrder"/>
         </methods>
-      </class> <!-- rsWork.mavenRsFramewrk.tests.LoginTest -->
+      </class> <!-- rsWork.mavenRsFramewrk.tests.ErrorValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

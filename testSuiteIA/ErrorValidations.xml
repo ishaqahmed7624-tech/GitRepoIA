@@ -13,13 +13,7 @@
 
 
 
-  <test thread-count="5" name="SubmitOrderIA">
-    <classes>
-      
-      <class name="rsWork.mavenRsFramewrk.tests.LoginTest"/>
-     
-    </classes>
-  </test> <!-- Test -->
+
   
    <test thread-count="5" name="ErrorValidationIA">
     <classes>
